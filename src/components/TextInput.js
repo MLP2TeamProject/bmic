@@ -1,6 +1,6 @@
-"use client";
-import { textState } from "@/store";
-import { useRecoilState } from "recoil";
+'use client';
+import { textState } from '@/store';
+import { useRecoilState } from 'recoil';
 
 export function TextInput() {
   const [text, setText] = useRecoilState(textState);
